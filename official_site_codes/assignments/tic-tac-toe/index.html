@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mahfuz The Great</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="custom.js"></script>
+	</head>
+	<body style="background-color: black;" background="purple_background_1_modified.jpg">
+		<div id="page">
+			<div id="header">
+				<div id="toolbar">
+					<div id="symbol">
+						<img src="psychic_symbol_edited_2.png">
+					</div>
+					<div id="menu">
+						<div class="box">
+							<a href="http://www.mahfuzhannan.com">Home</a>
+						</div>
+						<div class="box">
+							<a href="http://www.mahfuzhannan.com/assignments">Assignments</a>
+						</div>
+						<div class="box">
+							<a href="http://www.mahfuzhannan.com/about">About</a>
+						</div>
+						<div class="box">
+							<a href="http://www.mahfuzhannan.com/contact">Contact</a>
+						</div>
+						<div class="box">
+							<a href="http://www.mahfuzhannan.com/sign-up">Sign Up</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main">
+				<div id="tictactitle">
+  					Tic Tac Toe<br>
+  				</div>
+  				 <div id="container">
+				    <div class="row">
+				    	<div id="board" class="lf">
+				    		<div class="row" >
+						    	<div id="00" class="tic lf" onclick="move('00');">
+						    		
+						    	</div>
+						    	<div id="01" class="tic lf" onclick="move('01');">
+						    		
+						    	</div>
+						    	<div id="02" class="tic lf" onclick="move('02');">
+						    		
+						    	</div>
+						    </div>
+						    <div class="row">
+						    	<div id="10" class="tic lf" onclick="move('10');">
+						    		
+						    	</div>
+						    	<div id="11" class="tic lf" onclick="move('11');">
+						    		
+						    	</div>
+						    	<div id="12" class="tic lf" onclick="move('12');">
+						    		
+						    	</div>
+						    </div>
+						    <div class="row">
+						    	<div id="20" class="tic lf" onclick="move('20');">
+						    		
+						    	</div>
+						    	<div id="21" class="tic lf" onclick="move('21');">
+						    		
+						    	</div>
+						    	<div id="22" class="tic lf" onclick="move('22');">
+						    		
+						    	</div>
+						    </div>
+				    	</div>
+				    </div>
+
+				    <div id="stat" class="lf">
+				    	<button class="button" onclick="playerInputShow()">New Game</button>
+				    	<button class="button" onclick="startSet()">New Set</button>
+				    	<table id ="playerInput" class="tbl">
+				    		<tr>
+				    			<td>
+				    				Player 1: 
+				    			</td>
+				    			<td>
+				    				<input id="nameOne" name="nameOne" type="text">
+				    			</td>
+				    		</tr>
+				    		<tr>
+				    			<td>
+				   					Player 2: 
+				   				</td>
+				   				<td>
+				   					<input id="nameTwo" name="nameTwo" type="text">
+				   				</td>
+				   			</tr>
+				   			<tr>
+			    				<td>
+			    					&nbsp; 
+			    				</td>
+			    				<td>
+			    					<button class="button" onclick="newGame()">Start</button>
+			    				</td>
+			    			</tr>
+			    		</table>
+
+			    		<table id="gameStat" class="tbl">
+			    			<tr>
+			    				<td>
+			    					 &nbsp;
+			    				</td>
+			    				<td>
+			    					<span id="playerOneName">P1</span>
+			    				</td>
+			    				<td>
+			    					<span id="playerTwoName">P2</span>
+			    				</td>
+			    				<td>
+			    					<span id="draw">Draw</span>
+			    				</td>
+			    			</tr>
+			    			<tr>
+			    				<td>
+			    					Game Statistics:
+			    				</td>
+			    				<td>
+			    					<span id="playerOneStat">0</span>
+			    				</td>
+			    				<td>
+			    					<span id="playerTwoStat">0</span>
+			    				</td>
+			    				<td>
+			    					<span id="drawStat">0</span>
+			    				</td>
+			    			</tr>
+			    		</table>
+
+			    		<div id="result">
+			    			
+			    		</div>
+			    	</div>
+				</div>
+			</div>
+			<div id="footer">
+				Copyright &copy 2016 mahfuzhannan.com<br>
+				Inc. All rights reserved.<br>
+				Images used from Riot Games.<br>
+			</div>
+		</div>
+		<script src="custom_JS.js"></script>
+	</body>
+</html>
